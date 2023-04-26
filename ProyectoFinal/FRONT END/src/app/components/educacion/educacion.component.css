@@ -2,13 +2,13 @@
     padding: 25px;
 }
 div{
-    background: #fbddfb;
+    background: #DFDEE2;
 }
 h1,h3{
     display: inline;
 }
 #destacar{
     font-weight: bold;
-    color: darkred;
+    color: black;
     
 }

@@ -12,8 +12,8 @@
         <table class="table">
             <tbody>
                 <tr *ngFor="let FormacionAcademica of formacionAcademica">
-                    <td><h3>{{FormacionAcademica.nombreFA}}</h3></td>
-                    <td><h4>{{FormacionAcademica.descripcionFA}}</h4></td>
+                    <td><h4>{{FormacionAcademica.nombreFA}}</h4></td>
+                    <td><h5>{{FormacionAcademica.descripcionFA}}</h5></td>
                     <td *ngIf="isLogged">
                         <button class="btn btn-light" routerLink="/editformacionacademica/{{FormacionAcademica.id}}">
                         <i class="bi bi-pencil-square"></i>EDITAR</button>
